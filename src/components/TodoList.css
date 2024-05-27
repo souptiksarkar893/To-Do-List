@@ -1,0 +1,30 @@
+/* TodoList.css */
+.todo-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.todo-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.todo-container .form-control {
+  margin-right: 0.5em;
+}
+
+.todo-container .btn {
+  margin-left: 0.5em;
+}
+
+.todo-container .btn-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.todo-container .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
